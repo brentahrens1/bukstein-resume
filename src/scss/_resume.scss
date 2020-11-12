@@ -29,13 +29,18 @@
     &__skills {
         .resume-skills-inner {
             p {
-                margin: 0;
                 margin-bottom: 1.5rem;
             }
 
             .title {
                 margin: 0;
             }
+        }
+    }
+
+    &__education, &__contact {
+        a:link, a:visited {
+            color: #000;
         }
     }
 }

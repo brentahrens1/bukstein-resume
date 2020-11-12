@@ -50,6 +50,21 @@ const Resume = () => {
                     content="In summer of 2020 Ryan transitioned into an advisory role at Ace Hotel to focus on his outside consulting work. His first client, the innovative real estate company Hiatus Homes, is already making news with a cover story in Oregon 1859 Magazine."
                 />
             </div>
+            <div className="resume__education">
+                <p><strong>Education</strong></p>
+                <p>From 1998-2002 Ryan attended University of Washington and received a Certificate of International Studies in Business with a Minor in Music. During Ryan’s time at UW he also participated in a 6 month study abroad program at Waseda University in Tokyo, Japan and completed an internship with Warner, Elektra, Atlantic Records.</p>
+                <p><strong>Proficiencies</strong></p>
+                <p>Language : English, Japanese(basic)</p>
+                <p>Software : Excel, Word, Asana, Hive, Basecamp, Agile CRM, Ableton Live</p>
+                <p><strong>Music</strong></p>
+                <p>Drummer in <a href="https://machetres.bandcamp.com/" target="_blank">Machetres</a></p>
+                <p>Music Production as <a href="https://soundcloud.com/steinstein" target="_blank">Steinstein</a></p>
+            </div>
+            <div className="resume__contact">
+                <p><strong>Get in Touch</strong></p>
+                <p><a href="mailto:ryan@ryanbukstein.com" target="_blank">ryan@ryanbukstein.com</a></p>
+                <p><a href="tel:206-850-8376" target="_blank">206-850-8376</a></p>
+            </div>
         </div>
     )
 }
