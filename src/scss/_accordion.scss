@@ -8,7 +8,8 @@
     
         button {
             width: 100%;
-            height: 2rem;
+            height: auto;
+            padding: .3rem;
             background: transparent;
             border: 2px solid #000;
             position: relative;
@@ -60,5 +61,15 @@
         padding: .5rem;
         line-height: 1.4;
         font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .accordion-container {
+        .accordion__section {
+            .accordion__title {
+                width: 90%;
+            }
+        }
     }
 }
