@@ -1,2 +1,64 @@
-.accordion {
+.accordion-container {
+    .accordion__section {
+
+        .accordion__title {
+            margin: 0;
+            font-size: 16px;
+        }
+    
+        button {
+            width: 100%;
+            height: 2rem;
+            background: transparent;
+            border: 2px solid #000;
+            position: relative;
+            cursor: pointer;
+            outline: #000;
+            text-align: left;
+    
+            &::after {
+                content: "+";
+                position: absolute;
+                right: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 1.2rem;
+            }
+
+            &:hover {
+                background: #000;
+                color: #fff;
+
+                &::before {
+                    color: #fff;
+                }
+            }
+
+            &.active {
+                background: #000;
+                color: #fff;
+
+                &::before {
+                    color: #fff;
+                }
+            }
+
+            &.active::after {
+                content: "-";
+            }
+    
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    
+    .accordion__content {
+        overflow: hidden;
+        transition: max-height 0.6s ease;
+        max-height: 0;
+        padding: .5rem;
+        line-height: 1.4;
+        font-size: 1.2rem;
+    }
 }
