@@ -62,7 +62,7 @@ const Resume = () => {
             </div>
             <div className="resume__contact">
                 <p><strong>Get in Touch</strong></p>
-                <p><a href="mailto:ryan@ryanbukstein.com" target="_blank">ryan@ryanbukstein.com</a></p>
+                <p><a href="mailto:rb@ryanbukstein.com" target="_blank">rb@ryanbukstein.com</a></p>
                 <p><a href="tel:206-850-8376" target="_blank">206-850-8376</a></p>
             </div>
         </div>
