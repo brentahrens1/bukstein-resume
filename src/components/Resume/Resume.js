@@ -7,63 +7,143 @@ const Resume = () => {
         <div className="resume">
             <div className="resume__header">
                 <h1>Ryan Bukstein</h1>
-                <p><a href="mailto:rb@ryanbukstein.com" target="_blank">rb@ryanbukstein.com</a></p>
-                <p><a href="tel:206-850-8376" target="_blank">206-850-8376</a></p>
+                <div className="links">
+                    <p><a href="mailto:rb@ryanbukstein.com" target="_blank">rb@ryanbukstein.com</a></p>
+                    <div className="divider">|</div>
+                    <p><a href="tel:206-850-8376" target="_blank">206-850-8376</a></p>
+                    <div className="divider">|</div>
+                    <p><a href="tel:206-850-8376" target="_blank">ryanbuckstein.com</a></p>
+                </div>
+                <hr />
+            </div>
+            <div className="resume__mission-statement">
+                <p>
+                    Ryan Bukstein is a public relations, marketing and brand positioning expert living
+                    in Portland, OR. Ryan’s two decades of brand development experience include 15+
+                    years working to grow the Ace Hotel brand from a small hotel in Seattle to a global
+                    hospitality company. Ryan is currently working as a brand consultant to various clients
+                    and advisor to Ace Hotel Group.
+                </p>
+                <hr />
             </div>
             <div className="resume__skills">
-                <p><strong>Ryan Bukstein</strong> (born March 14th, 1980) is a Public Relations, Marketing and Brand Positioning expert living in Portland, OR. Ryan’s two decades of brand development experience include 15+ years working to grow the Ace Hotel brand from a small hotel in Seattle to a global hospitality company. Ryan is currently working as a brand consultant to various clients and advisor to Ace Hotel Group.</p>
-                <div className="resume-skills-inner">
-                    <p className="title"><strong>Skills</strong></p>
-                    <p>Public Relations : Over 20 years of work in Public Relations with contacts across all categories.  Extensive experience managing PR agencies globally and working from initial strategy to outreach and pitching.</p>
-                    <p>Marketing : Experience in Advertising, CRM, Grassroots Marketing and Partnerships.  30K foot view of marketing and brand positioning. Experience working with partners to drive exposure and break through the noise.  Long and short term marketing planning and budgeting.</p>
-                    <p>Creative Direction : Unique understanding of how to position a brand through changing culture and trends.  Displayed experience connecting design, branding, PR and messaging to tell a strong brand story. Utilizing cultural partnerships and local community engagement to create and maintain brand relevance.</p>
-                    <p>Team Management : Extensive experience working with teams across time zones and skill sets.  Management and leadership experience of 10+ person teams.  Working closely with executive level hotel teams, a leader of leaders.</p>
-                </div>
+                <h1>Skills</h1>
+                <p><strong>Public Relations.</strong> Over 20 years of work in public relations strategy and outreach with contacts across all categories and experience managing PR agencies globally</p>
+                <p>
+                    <strong>Marketing.</strong> Experience in long term planning and action in advertising, social, customer relationship
+                    management, and grassroots marketing. Skill set to identify and develop brand building partnership
+                    opportunities with personal relationships across a variety of industries.
+                </p>
+                <p>
+                    <strong>Creative Direction.</strong> Unique understanding of how to position a brand through changing culture and
+                    trends with experience connecting design, branding, PR, partnerships and messaging to tell a strong
+                    brand story.
+                </p>
+                <p>
+                    <strong>Team Management.</strong> Extensive experience working with teams across time zones and skill sets.
+                    Management and leadership experience of 15+ person teams, a leader of leaders. 
+                </p>
             </div>
             <div className="resume__experience">
-                <p><strong>Experience</strong></p>
-                <Accordion
-                    title="Early Career 2000-2007"
-                    content="Ryan’s career started early in 2000 while still a student at University of Washington in Seattle. An internship with Neverstop, an award-winning experiential marketing agency working with Sephora, Microsoft, Nike, Uniqlo, and Target, set up the opportunity for mentorship by Alex Calderwood, founder of Neverstop and Ace Hotel. Ryan grew from an intern at Neverstop to a creative producer executing experiential marketing for clients including Gap, Banana Republic, Standard Hotels, Starbucks and Comcast."
-                />
-                <Accordion
-                    title="Ace Hotel Beginnings 2008-2012"
-                    content="Ace Hotel Beginnings 2008-2012
-                    In 2007, Ryan joined the small team creating the second Ace Hotel in Portland, OR. Working as PR and Marketing Manager, Ryan handled the public relations, marketing, and event programming for the launch of Ace Hotel Portland, while also project managing the design team. His work culminated in the Inspired Travel collection, a collaboration with Uniqlo featuring artists and designers from the Pacific Northwest.  Ace Hotel Portland was a significant media and financial success, receiving coverage worldwide including a large exclusive story in New York Times T Magazine.  
-                     
-                    The next phase of Ace Hotel saw Ryan and the team taking on growth to locations in Midtown Manhattan NYC and Palm Springs, CA.  Ryan’s role expanded to Director of Marketing, continuing to oversee public relations, marketing, event programming, partnerships, and web development. Ace Hotel New York and Ace Hotel Palm Springs were recognized by the New York Times, Travel and Leisure and 100’s of publications across the globe.  Awards from Wallpaper Magazine, Condenast Traveler’s gold List and LE Miami combined with partnerships with Opening Ceremony, KEXP Radio, Incase, Converse,  Martin Greenfield and others set up the hotels for critical and financial success."
-                />
-                <Accordion
-                    title="Ace Hotel Global Growth 2013-2015"
-                    content="As Ace Hotel continued to grow, Ryan was elevated to Vice President of Brand. While Ryan led the team to continue to drive exposure and revenue to the operating hotels, he also oversaw the opening of Ace’s first global locations. Atelier Ace created their first luxury product, American Trade Hotel in Panama City, Panama.  Working closely with Jazz legend Danilo Perez, Ryan worked to position this new hotel and jazz club alongside the storied history and culture of Panama City.  In London, Ace Hotel utilized it’s cultural lens to transform a crown plaza hotel into Ace Hotel London Shoreditch.  Collaborations with Moog, London Design Festival, and more helped define the Ace brand in Europe and as the Financial Times put it 'its careful, well-designed confidence allows it to slot into Shoreditch with deceptive ease. But, more importantly, it has given London back a bit of its streetscape that seemed lost forever.'"
-                />
-                <Accordion
-                    title="Pittsburgh, Chicago, New Orleans and LA plus a Theatre 2016-2017"
-                    content="After opening Ace Hotel Pittsburgh in 2016 a new round of domestic hotel openings brought new challenges and opportunities to the Ace Hotel team. In the renovation and operation of a 1600 seat historical theatre, Ryan took a leadership role in the process and helped craft the plan to operate the theatre to drive maximum brand benefit to the hotel.  The successful launch of Ace Hotel Downtown Los Angeles and the Theatre at Ace Hotel was followed up with openings in New Orleans and Chicago. At Ace Hotel New Orleans’ Ryan’s work to lead the development of a unique in lobby music venue, helped drive collaborations with Preservation Hall, Brian Blade, Daniel Lanois and others.  His leadership on community relations helped Ace Hotel Chicago open with praise from the Washington Post of 'socially conscious hotels give back to the community.'"
-                />
-                <Accordion
-                    title="Two New Brands and Ace Hotel Kyoto, Japan 2018-2020"
-                    content="In his last phase as Vice President of Brand at Ace Hotel, Ryan helped spearhead the creation of two new hotel brands under the Atelier Ace umbrella and bring about the launch of the longtime dream of a hotel in Japan.  For Sister City, a distilled service brand, Ryan worked with Headspace, Microsoft and Bjork to bring the new hotel concept to life and received praise in Fast Company, USA Today and Wallpaper Magazine.  Mason De La Luz engaged a more high end luxury audience, creating collaborations with Artspace and Phaidon and receiving praise in the Wall Street Journal and others.  Ryan was a key leader in traveling to Japan to develop Ace Hotel Kyoto, the brand’s first outpost in Asia."
-                />
-                <Accordion
-                    title="RB Brand Consulting 2020 -"
-                    content="In summer of 2020 Ryan transitioned into an advisory role at Ace Hotel to focus on his outside consulting work. His first client, the innovative real estate company Hiatus Homes, is already making news with a cover story in Oregon 1859 Magazine."
-                />
+                <h1>Experience</h1>
+                <section>
+                    <div className="tags">
+                        <p><strong>Ace Hotel</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>Vice President of Brand</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>2013-2020</strong></p>
+                    </div>
+                    <p>
+                        Over the last decade and a half, Ryan has helped lead the award winning and innovative brand team at
+                        Ace Hotel Group. As Vice President of Brand, he most recently helped spearhead the creation of two
+                        new hotel brands under the Atelier Ace umbrella: Sister City in New York City and Maison De La Luz
+                        in New Orleans. He also utilized his past experience working and studying in Japan to help lead the
+                        launch of Ace Hotel Kyoto. 
+                    </p>
+                    <p>
+                        As Brand VP, Ryan oversaw partnerships on a global level working with partners including Headspace,
+                        Microsoft, Beams Japan, and Dropbox . His leadership in public relations strategy resulted in feature
+                        stories in The New York Times, WSJ Magazine., The Washington Post, Wallpaper Magazine, Travel +
+                        Leisure, Condé Nast Traveller and Architectural Digest Magazine to name a few.
+                    </p>
+                    <p>
+                        The marketing and event programming led by Ryan helped drive successful openings and swift
+                        stabilization of hotels in New Orleans, Chicago, Pittsburgh, Los Angeles, and London. Always willing
+                        to take on new challenges, he also took a leadership role in the branding and operation of the
+                        historic United Artists Theater in Downtown Los Angeles. Ryan oversaw the creative direction of Ace
+                        Hotel’s music program, including all in house piped music playlists and live events. His work led to
+                        collaborations with Bjork, Flatbush Zombies, Danilo Perez, Preservation Hall Jazz Band and more.
+                    </p>
+                </section>
+                <section>
+                    <div className="tags">
+                        <p><strong>Ace Hotel</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>Director of PR and Marketing</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>2009-2013</strong></p>
+                    </div>
+                    <p>
+                        The first national growth phase of Ace Hotel saw Ryan and the team taking on locations in New
+                        York, NY and Palm Springs, CA. Ryan’s role expanded to Director of PR and Marketing, continuing to
+                        oversee public relations, marketing, event programming, partnerships, and web development. In Palm
+                        Springs, He led the development of an event programming strategy that helped drive a new wave
+                        of tourism and positioned Ace Hotel & Swim Club to grow into one of the region’s biggest success
+                        stories. Partnerships and public relations driven by Ryan and his team contributed to Ace Hotel New
+                        York’s transformation of the Nomad district in Midtown Manhattan, called by NY Magazine a “hot
+                        neighborhood starter kit.” 
+                    </p>
+                </section>
+                <section>
+                    <div className="tags">
+                        <p><strong>Ace Hotel</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>PR and Marketing Manager</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>2006-2009</strong></p>
+                    </div>
+                    <p>
+                        In 2006, Ryan joined the small team creating the second Ace Hotel, in Portland, OR. Working as
+                        Marketing and PR Manager, Ryan handled the public relations, marketing, and event programming for
+                        the launch of Ace Hotel Portland, while also project managing the design team. His work included
+                        the first of Ace Hotel’s Japan collaborations: The Inspired Travel Collection with Uniqlo and an event
+                        series with Travel Oregon to promote Portland as a destination. Ryan’s brand marketing and public
+                        relations work helped Ace Hotel Portland become a significant media and financial success, receiving
+                        coverage worldwide including a large exclusive story in New York Times T Magazine. 
+                    </p>
+                </section>
+                <section className="neverstop">
+                    <div className="tags">
+                        <p><strong>Neverstop Marketing </strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>Intern: 2000-2002</strong></p>
+                        <div className="divider">|</div>
+                        <p><strong>Producer: 2002-2006</strong></p>
+                    </div>
+                    <p>
+                        Ryan’s career started early in 2000 while still a student at University of Washington in Seattle. An
+                        internship with Neverstop, an award-winning experiential marketing agency, set up the opportunity
+                        for mentorship by Alex Calderwood, founder of Neverstop and Ace Hotel. Ryan grew from an intern at
+                        Neverstop to a creative producer executing experiential marketing for clients including Gap, Banana
+                        Republic, Standard Hotels, Starbucks and Comcast. 
+                    </p>
+                </section>
             </div>
             <div className="resume__education">
-                <p><strong>Education</strong></p>
-                <p>From 1998-2002 Ryan attended University of Washington and received a Certificate of International Studies in Business with a Minor in Music. During Ryan’s time at UW he also participated in a 6 month study abroad program at Waseda University in Tokyo, Japan and completed an internship with Warner, Elektra, Atlantic Records.</p>
-                <p><strong>Proficiencies</strong></p>
-                <p>Language : English, Japanese(basic)</p>
-                <p>Software : Excel, Word, Asana, Hive, Basecamp, Agile CRM, Ableton Live</p>
-                <p><strong>Music</strong></p>
-                <p>Drummer in <a href="https://machetres.bandcamp.com/" target="_blank">Machetres</a></p>
-                <p>Music Production as <a href="https://soundcloud.com/steinstein" target="_blank">Steinstein</a></p>
+                <h1>Education</h1>
+                <p>
+                    From 1998-2002 Ryan attended University of Washington and received a Certificate of International
+                    Studies in Business with a Minor in Music. During Ryan’s time at UW, he also participated in a 6
+                    month study abroad program at Waseda University in Tokyo, Japan and completed an internship with
+                    Warner, Elektra, Atlantic Records. 
+                </p>
             </div>
-            <div className="resume__contact">
-                <p><strong>Get in Touch</strong></p>
-                <p><a href="mailto:rb@ryanbukstein.com" target="_blank">rb@ryanbukstein.com</a></p>
-                <p><a href="tel:206-850-8376" target="_blank">206-850-8376</a></p>
+            <div className="resume__education">
+                <h1>Proficiencies</h1>
+                <p><strong>Language</strong> Japanese(basic)</p>
+                <p><strong>Software</strong> Excel, Asana, Hive, Basecamp, Agile and Hubspot CRM, Ableton Live</p>
+                <p><strong>Music</strong> Drummer in Machetres, Music Production as Steinstein</p>
             </div>
         </div>
     )
