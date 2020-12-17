@@ -6,14 +6,19 @@
     margin-bottom: 5rem;
 
     hr {
-        color: #aaaaaa;
+        color: #E6E7E8;
+    }
+
+    .name {
+        color: #4D4D4D;
+        font-size: 1.8rem;
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         letter-spacing: 1px;
         font-weight: 400;
-        color: #545454;
+        color: #656565;
         margin-bottom: .5rem;
     }
 
@@ -26,10 +31,11 @@
             justify-content: space-between;
             margin: 0 auto;
             margin-bottom: 1rem;
+            color: #A1A1A1;
         }
 
         .divider {
-            color: #aaaaaa;
+            color: #E6E7E8;
         }
 
         p, a {
@@ -72,6 +78,11 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 1rem;
+            margin-top: 3rem;
+
+            &.top {
+                margin-top: .4rem;
+            }
 
             p {
                 margin: 0;

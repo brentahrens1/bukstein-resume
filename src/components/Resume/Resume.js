@@ -6,7 +6,7 @@ const Resume = () => {
     return (
         <div className="resume">
             <div className="resume__header">
-                <h1>Ryan Bukstein</h1>
+                <h1 className="name">Ryan Bukstein</h1>
                 <div className="links">
                     <p><a href="mailto:rb@ryanbukstein.com" target="_blank">rb@ryanbukstein.com</a></p>
                     <div className="divider">|</div>
@@ -28,7 +28,7 @@ const Resume = () => {
             </div>
             <div className="resume__skills">
                 <h1>Skills</h1>
-                <p><strong>Public Relations.</strong> Over 20 years of work in public relations strategy and outreach with contacts across all categories and experience managing PR agencies globally</p>
+                <p><strong>Public Relations.</strong> Over 20 years of work in public relations strategy and outreach with contacts across all categories and experience managing PR agencies globally.</p>
                 <p>
                     <strong>Marketing.</strong> Experience in long term planning and action in advertising, social, customer relationship
                     management, and grassroots marketing. Skill set to identify and develop brand building partnership
@@ -47,7 +47,7 @@ const Resume = () => {
             <div className="resume__experience">
                 <h1>Experience</h1>
                 <section>
-                    <div className="tags">
+                    <div className="tags top">
                         <p><strong>Ace Hotel</strong></p>
                         <div className="divider">|</div>
                         <p><strong>Vice President of Brand</strong></p>
