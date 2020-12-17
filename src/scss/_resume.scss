@@ -143,6 +143,10 @@
 
     .resume {
         width: calc(100% - 2rem);
+
+        .divider {
+            display: none;
+        }
     
         .back-to-top {
             bottom: 1rem;
@@ -174,6 +178,8 @@
     
             .tags {
                 width: 90%;
+                display: flex;
+                flex-direction: column;
             }
     
             .neverstop {
@@ -210,13 +216,11 @@
     
             .tags {
                 width: 90%;
-                font-size: .7rem;
             }
     
             .neverstop {
                 .tags {
                     width: 100%;
-                    font-size: .7rem;
                 }
             }
         }
