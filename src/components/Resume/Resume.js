@@ -161,8 +161,8 @@ const Resume = () => {
                 <p><strong>Software</strong> Excel, Asana, Hive, Basecamp, Agile and Hubspot CRM, Ableton Live</p>
                 <p><strong>Music</strong> Drummer in Machetres, Music Production as Steinstein</p>
             </div>
-            <div className={`back-to-top ${onScroll ? "show" : ""}`}>
-                <button onClick={backToTop}>^</button>
+            <div onClick={backToTop} className={`back-to-top ${onScroll ? "show" : ""}`}>
+                <i class="up"></i>
             </div>
         </div>
     )
