@@ -110,6 +110,9 @@ const Resume = () => {
                         York’s transformation of the Nomad district in Midtown Manhattan, called by NY Magazine a “hot
                         neighborhood starter kit.” 
                     </p>
+                    <p>
+                        As Ace Hotel was adding new hotel locations, Ryan and team were also growing the company’s retail business through product collaborations and storytelling around unique hotel products.  Ryan’s product marketing and PR work helped drive the success of collaborations with Converse, Wings + Horns, Incase, Tokyo Bike and Reigning Champ.  Creative event marketing included a pop up shop with the Vancouver Art Gallery around the Grand Hotel Exhibition.
+                    </p>
                 </section>
                 <section>
                     <div className="tags">
