@@ -139,8 +139,90 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
+
     .resume {
-        width: calc(100% - 4rem);
+        width: calc(100% - 2rem);
+    
+        .back-to-top {
+            bottom: 1rem;
+        }
+    
+        &__header {
+
+            .name {
+                margin-bottom: 1rem;
+            }
+    
+            .links {
+                width: 100%;
+            }
+        }
+    
+        &__mission-statement {
+            p {
+                margin: 2rem 0;
+            }
+        }
+    
+        &__skills {
+            margin: 0 0rem;
+        }
+    
+        &__experience {
+            margin: 0rem 0;
+    
+            .tags {
+                width: 90%;
+            }
+    
+            .neverstop {
+                .tags {
+                    width: 100%;
+                }
+            }
+        }
+    
+        &__education {
+            margin: 0rem 0;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .resume {
+        width: calc(100% - 2rem);
+    
+        &__header {
+    
+            .links {
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    
+        &__experience {
+    
+            .tags {
+                width: 90%;
+                font-size: .7rem;
+            }
+    
+            .neverstop {
+                .tags {
+                    width: 100%;
+                    font-size: .7rem;
+                }
+            }
+        }
+    
+        &__education {
+            margin: 0rem 0;
+        }
     }
 }
