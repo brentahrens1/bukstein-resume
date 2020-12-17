@@ -30,7 +30,7 @@ const Resume = () => {
                     <div className="divider">|</div>
                     <p><a href="tel:206-850-8376" target="_blank">ryanbuckstein.com</a></p>
                 </div>
-                <hr />
+                <div className="hr" />
             </div>
             <div className="resume__mission-statement">
                 <p>
@@ -40,7 +40,7 @@ const Resume = () => {
                     hospitality company. Ryan is currently working as a brand consultant to various clients
                     and advisor to Ace Hotel Group.
                 </p>
-                <hr />
+                <div className="hr" />
             </div>
             <div className="resume__skills">
                 <h1>Skills</h1>
