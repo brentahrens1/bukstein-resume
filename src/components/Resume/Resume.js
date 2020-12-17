@@ -1,8 +1,24 @@
+import { useState } from 'react'
 import '../../scss/_resume.scss'
 
-import Accordion from '../Accordion/Accordion'
-
 const Resume = () => {
+    const [ onScroll, setOnScroll ] = useState(false)
+
+    const handleScroll = () => {
+        if (window.scrollY > 300) {
+            setOnScroll(true)
+        } else {
+            setOnScroll(false)
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    const backToTop = () => {
+        document.documentElement.scrollTop = 0;
+    }
+
+
     return (
         <div className="resume">
             <div className="resume__header">
@@ -144,6 +160,9 @@ const Resume = () => {
                 <p><strong>Language</strong> Japanese(basic)</p>
                 <p><strong>Software</strong> Excel, Asana, Hive, Basecamp, Agile and Hubspot CRM, Ableton Live</p>
                 <p><strong>Music</strong> Drummer in Machetres, Music Production as Steinstein</p>
+            </div>
+            <div className={`back-to-top ${onScroll ? "show" : ""}`}>
+                <button onClick={backToTop}>^</button>
             </div>
         </div>
     )
