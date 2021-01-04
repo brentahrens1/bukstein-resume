@@ -26,11 +26,11 @@ const Resume = () => {
             <div className="resume__header">
                 <h1 className="name">Ryan Bukstein</h1>
                 <div className="links">
-                    <p><a href="mailto:rb@ryanbukstein.com" target="_blank">rb@ryanbukstein.com</a></p>
+                    <p><a href="mailto:rb@ryanbukstein.com" target="_blank" rel="noopener noreferrer">rb@ryanbukstein.com</a></p>
                     <div className="divider">|</div>
-                    <p><a href="tel:206-850-8376" target="_blank">206-850-8376</a></p>
+                    <p><a href="tel:206-850-8376" target="_blank" rel="noopener noreferrer">206-850-8376</a></p>
                     <div className="divider">|</div>
-                    <p><a href={ResumeDoc} target="_blank">Resume</a></p>
+                    <p><a href={ResumeDoc} target="_blank" rel="noopener noreferrer">Resume</a></p>
                     <div className="divider">|</div>
                     <p><a href="https://www.linkedin.com/in/ryanbukstein/" target="_blank">LinkedIn</a></p>
                 </div>
