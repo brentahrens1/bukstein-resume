@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../../scss/_resume.scss'
 
-import ResumeDoc from "../../assets/Ryan_Bukstein_Resume.pdf"
+import ResumeDoc from "../../assets/Ryan_Bukstein_Resume.docx"
 
 const Resume = () => {
     const [ onScroll, setOnScroll ] = useState(false)
@@ -30,7 +30,7 @@ const Resume = () => {
                     <div className="divider">|</div>
                     <p><a href="tel:206-850-8376" target="_blank" rel="noopener noreferrer">206-850-8376</a></p>
                     <div className="divider">|</div>
-                    <p><a href={ResumeDoc} target="_blank" rel="noopener noreferrer">Resume</a></p>
+                    <p><a href={ResumeDoc} target="_blank" rel="noopener noreferrer">Download Resume</a></p>
                     <div className="divider">|</div>
                     <p><a href="https://www.linkedin.com/in/ryanbukstein/" target="_blank">LinkedIn</a></p>
                 </div>
