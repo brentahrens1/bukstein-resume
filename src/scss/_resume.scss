@@ -6,6 +6,10 @@
     margin-bottom: 5rem;
     position: relative;
 
+    a:visited {
+        color: #434343;
+    }
+
     .back-to-top {
         position: fixed;
         bottom: 2rem;
@@ -107,8 +111,13 @@
         margin: 0rem 4rem;
         margin-bottom: 3rem;
 
+
         h1 {
-            margin-bottom: 0;
+            margin-bottom: 1.2rem;
+        }
+
+        p {
+            margin-top: 0;
         }
 
         .tags {

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../../scss/_resume.scss'
 
-import ResumeDoc from "../../assets/Ryan_Bukstein_Resume.docx"
+import ResumeDoc from "../../assets/RyanBukstein_CV.pdf"
 
 const Resume = () => {
     const [ onScroll, setOnScroll ] = useState(false)
@@ -38,7 +38,7 @@ const Resume = () => {
             </div>
             <div className="resume__mission-statement">
                 <p>
-                    I am driven by curiosity, creativity, and the intention to use business as a platform to build community. My experience is in Public Relations, Marketing and Brand Positioning with 15+ years working to grow the Ace Hotel brand from a small hotel in Seattle to a global hospitality company. I am currently working as a brand consultant to various clients.
+                I am driven by curiosity, creativity, and building community through business. I have experience in Public Relations, Marketing and Brand Positioning with 15+ years working to grow the Ace Hotel brand from a small hotel in Seattle to a global hospitality company. I am currently working as a brand consultant to various clients including <a href="https://hiatushomes.com/" target="_blank">Hiatus Homes</a> and <a href="https://oda.co/" target="_blank">Oda</a>.
                 </p>
                 <div className="hr" />
             </div>
@@ -87,7 +87,7 @@ const Resume = () => {
                     </p>
                 </section>
                 <section>
-                    <div className="tags">
+                    <div className="tags top">
                         <p><strong>Ace Hotel Director of PR and Marketing 2009-2013</strong></p>
                     </div>
                     <p>
@@ -98,7 +98,7 @@ const Resume = () => {
                     </p>
                 </section>
                 <section>
-                    <div className="tags">
+                    <div className="tags top">
                         <p><strong>Ace Hotel PR and Marketing Manager 2006-2009</strong></p>
                     </div>
                     <p>
@@ -106,7 +106,7 @@ const Resume = () => {
                     </p>
                 </section>
                 <section className="neverstop">
-                    <div className="tags">
+                    <div className="tags top">
                         <p><strong>Neverstop Marketing Intern: 2000-2002 Producer: 2002-2006</strong></p>
                     </div>
                     <p>
@@ -124,7 +124,7 @@ const Resume = () => {
                 <h1>Proficiencies</h1>
                 <p><strong>Language</strong> Japanese(basic)</p>
                 <p><strong>Software</strong> Excel, Asana, Hive, Basecamp, Agile and Hubspot CRM, Ableton Live</p>
-                <p><strong>Music</strong> Drummer in Machetres, Music Production as Steinstein</p>
+                <p><strong>Music</strong> Drummer in <a href="https://machetres.bandcamp.com/" target="_blank">Machetres</a>, Music Production as <a href="https://soundcloud.com/steinstein" target="_blank">Steinstein</a></p>
             </div>
             <div onClick={backToTop} className={`back-to-top ${onScroll ? "show" : ""}`}>
                 <i class="up"></i>
