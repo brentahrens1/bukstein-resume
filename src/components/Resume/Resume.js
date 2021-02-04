@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../../scss/_resume.scss'
 
-import ResumeDoc from "../../assets/RyanBukstein_CV.pdf"
+import ResumeDoc from "../../assets/Ryan Bukstein CV.pdf"
 
 const Resume = () => {
     const [ onScroll, setOnScroll ] = useState(false)
